@@ -52,6 +52,6 @@ app.use('/graphql', createHandler({
 }));
 
 app.listen(59100, () => {
-  console.log('Server running at http://54.167.145.148:59100/graphql');
+  console.log('Server running at http://localhost:59100/graphql');
 });
 
